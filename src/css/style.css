@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(3, 9, 17);
+}
+
+h1, h6, h5, h4, p, td{
+    color: rgb(255, 255, 255);
+}
+
+#load{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+}
+
+#load-conteiner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#search-conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#artists-conteiner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+#artist{
+    padding: 20px;
+    display: flex;
+    flex: 2;
+    height: 150px;
+    width: 54px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgb(22, 22, 70);
+    margin: 20px;
+}
+
+#image-artist{
+    height: 120px;
+    width: 120px;
+}
+
+#image-profile-artist, #image-profile-album{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+#header-tracks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+}
+
+#image-album{
+    margin-top: 20px;    
+    height: 50px;
+    width: 50px;
+}
+
+#info-artist, #info-album{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;    
+}
+
+#albums-artist, #singles-artist{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#conteiner-albums-artist{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#list-albums{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#album{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(45, 45, 53);
+    height: 200px;
+    width: 200px;
+    margin-right: 15px;
+}
+
+#show-all-albums{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100px;
+    background-color: rgb(45, 45, 53);
+}
+
+#list-tracks{
+    margin-top: 50px;    
+}
+
+#track{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(45, 45, 53);
+    margin-bottom: 5px;
+    margin-right: 50px;
+    width: 500px;
+}
+
+#name-track, #header-track{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#explicit-track{
+    margin-left: 20px;
+}

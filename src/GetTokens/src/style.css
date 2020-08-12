@@ -1,0 +1,10 @@
+#load{
+    top: 50%;
+}
+
+#load-conteiner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
