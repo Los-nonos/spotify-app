@@ -7,13 +7,13 @@ class GetToken extends React.Component{
     componentDidMount(){
         window.location.assign(
             encodeURI(
-                'https://accounts.spotify.com/authorize?client_id=ed22631c2d5f4abbaabdd3a5ce707287&response_type=token&redirect_uri=http://localhost:3000/search'
+                'https://accounts.spotify.com/authorize?client_id=ed22631c2d5f4abbaabdd3a5ce707287&response_type=token&redirect_uri=http://localhost:3000/auth/redirect'
             ));
     }
 
     render(){
         return(
-            <div id="load-conteiner">
+            <div id="load-container">
                 <div id="load">
                     <LoadingPage />
                 </div>

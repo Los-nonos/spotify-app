@@ -83,7 +83,8 @@ class ApiFetch {
                 baseURL: this.apiUrl(),
                 url: `${requestData.endpoint}`,
                 data: requestData.body ? requestData.body : null,
-                headers: { ...requestData.customHeaders, authorization: authStorage.getSession() },
+                headers: { ...requestData.customHeaders, Authorization: `Bearer ${authStorage.getSession()}`, mode: 'cors',
+                    cache: 'default' },
             }).catch(error => {
                 handler(error.response);
                 reject(error.response);

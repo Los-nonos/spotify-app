@@ -11,4 +11,5 @@ export const redirectToWithState = (path, state) => {
 export const pages = {
     login: '/auth/login-page',
     error: '/auth/error',
+    search: '/search'
 };

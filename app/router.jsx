@@ -11,10 +11,12 @@ import Album from "./containers/Album";
 import Albums from "./containers/Albumes";
 import Singles from "./containers/Singles";
 import Single from "./containers/Single";
+import RedirectPage from "./containers/RedirectPage";
 
 const App = () => (
     <Switch>
-        <Route path="/" exact component={GetToken} />
+        <Route path="/auth/login-page" exact component={GetToken} />
+        <Route path="/auth/redirect" exact component={RedirectPage} />
         <Route path="/search" exact component={ArtistSearch} />
         <Route path="/artist" exact component={Artist} />
         <Route path="/album" exact component={Album} />

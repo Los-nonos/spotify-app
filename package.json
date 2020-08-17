@@ -16,7 +16,7 @@
     "lint": "npm run lint:js",
     "lint:eslint": "eslint --ignore-path .gitignore",
     "lint:js": "npm run lint:eslint -- . ",
-    "start": "cross-env NODE_ENV=development node server --port 3003 ",
+    "start": "cross-env NODE_ENV=development node server --port 3000",
     "start:prod": "cross-env NODE_ENV=production node server",
     "start:production": "npm run test && npm run build && npm run start:prod",
     "test": "jest",
